@@ -1,0 +1,199 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: darkseagreen;
+  }
+
+  h2{
+    text-decoration: none;
+    border: none;
+    text-align: justify;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 5px;
+  }
+
+  ul{
+    text-align: justify;
+    list-style-type: none;
+    padding: 0.3;
+    margin: 5px;
+    font-family: Helvetica;
+    border-left: 3px solid darkgreen;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+  }
+
+  #input{
+    border: none;
+    border-bottom: 2px solid darkgreen;
+    outline: none;
+  }
+
+  .a-jogar{
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    color: darkgreen;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 5px;
+    font-size: larger;
+  }
+
+  .a-jogar:hover{
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    color: ghostwhite;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 5px;
+  }
+  
+  .h3-comojogar{
+    text-align: justify;
+    color: darkgreen;
+    font-family: Helvetica;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  #li-fim{
+    text-decoration: none;
+    border: none;
+    text-align: justify;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+
+ 
+
+    #endereco{
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        color: darkgreen;
+        font-family: Helvetica;
+    }
+
+    #endereco:hover{
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        color: ghostwhite;
+        font-family: Helvetica;
+    }
+
+
+
+    #endButton{
+        background-color: darkseagreen;
+        border: none;
+        color: darkgreen;
+        text-align: justify;
+    }
+
+    #endButton:hover{
+        background-color: darkseagreen;
+        border: none;
+        color: ghostwhite;
+        text-align: justify;
+    }
+
+    #timer-container {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  #game-container {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  #cutscene-container{
+    display: none;
+    border-left: 3px solid darkgreen;
+  }
+
+  #timer{
+    color: black;
+    text-align: justify;
+    font-style: normal;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: smaller;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+  }
+  
+  .a-fim{
+    color: darkgreen;
+    text-align: justify;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica;
+  }
+
+  .a-fim:hover{
+    color: ghostwhite;
+    text-align: justify;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica;
+  }
+
+  .p-thanks{
+    color: black;
+    text-align: justify;
+    font-style: normal;
+    font-family: Helvetica;
+    margin: 5px;
+  }
+
+  .p-creds{
+    color: black;
+    text-align: justify;
+    font-style: normal;
+    font-family: Helvetica;
+    margin: 5px;
+  }
+
+  .enigma{
+    color: darkseagreen;
+    font-family: Helvetica;
+    text-align: fixed;
+  }
+
+  .game-h1{
+    color: ghostwhite;
+    text-align: center;
+    font-family: Helvetica;
+    position: relative;  }
+
+  .game-h1::after {
+    content: ""; 
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: darkgreen; 
+    position: absolute; 
+    bottom: 0;
+    left: 25%; 
+  }
+
+
+ 

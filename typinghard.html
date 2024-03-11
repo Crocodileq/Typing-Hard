@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Typing Hard</title>
+
+</head>
+
+<body>
+    
+
+  <div id="game-container">
+    <h1 class="game-h1">TYPING HARD</h1>
+    <br><br>
+    <div id="timer-container"><span id="timer"></span></div>
+    <!-- Frase para digitar -->
+    <p id="phrase">Olá, mundo!</p>
+    <!-- Área de digitação -->
+    <input type="text" id="input" oninput="checkInput()">
+    <br><br><br>
+    <p class="enigma">LETRAS MAIÚSCULAS = HISTÓRIA</p>
+  </div>
+
+  <div id="cutscene-container">
+    <h2>Fim de Jogo</h2>
+    <p class="p-thanks">Agradecemos por jogar!</p>
+    <p class="p-creds" >Créditos:</p>
+    <ul>
+      <li id="li-fim">Desenvolvedor: <a id="endereco" href="https://twitter.com/crocodile_q">@crocodile_q</a></li>
+      <li id="li-fim">Designer: <a id="endereco" href="https://www.tiktok.com/@mysword00?is_from_webapp=1&sender_device=pc">@mysword00</a></li>
+    </ul>
+    <button id="endButton"><a class="a-fim" href="index.html">Voltar</a></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
